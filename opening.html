@@ -5,22 +5,31 @@
         <title>Jadine's 21st</title>
         <style>
             h1{
-                animation-name: heading;
+                animation-name: heading1;
                 animation-duration: 4s;
                 animation-iteration-count: infinite;
             }
-
-             @keyframes heading{ 
+            h4{
+                color:plum; 
+                position: relative;
+                animation: heading4 6s;
+                animation-fill-mode: forwards;
+            }
+            #h4 {animation-timing-function: linear;}
+             @keyframes heading1{ 
             0%   {color: antiquewhite;}
             25%  {color: plum;}
             50%  {color: violet;}
             100% {color: rgb(212, 0, 255)}
-        }
+            }
+            @keyframes heading4{
+                from {left: -1000px;}
+                to {left: 300px;}
+            }
         </style>
     </head>
     <body style="background-color: rgb(44, 0, 63);">
-        <h1 style="font-family: Georgia, 'Times New Roman', Times, serif; "
-        >
-            You've been chosen!</h1>
+        <h1 style="font-family: Georgia, 'Times New Roman', Times, serif; ">You've been chosen!</h1>
+        <h4 id="h4" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Look through the memories and click on your favourite picture of Jadine</h4>
     </body>
 </html>

@@ -4,6 +4,16 @@
         <meta charset="UTF-8">
         <title>Jadine's 21st</title>
         <style>
+            img{
+                position: relative;
+                animation-delay: 10s;
+                animation: images 6s;
+                animation-fill-mode: forwards;
+            }
+            body{
+                height: 520px;
+                background-image: linear-gradient(rgb(103, 0, 147),rgb(44, 0, 63));
+            }
             h1{
                 animation-name: heading1;
                 animation-duration: 4s;
@@ -16,6 +26,7 @@
                 animation-fill-mode: forwards;
             }
             #h4 {animation-timing-function: linear;}
+            #image {animation-timing-function: linear;}
              @keyframes heading1{ 
             0%   {color: antiquewhite;}
             25%  {color: plum;}
@@ -26,10 +37,26 @@
                 from {left: -1000px;}
                 to {left: 300px;}
             }
+            @keyframes images {
+                from{left: -1200px;}
+                to {left: 100px;}
+            }
         </style>
     </head>
     <body style="background-color: rgb(44, 0, 63);">
         <h1 style="font-family: Georgia, 'Times New Roman', Times, serif; ">You've been chosen!</h1>
         <h4 id="h4" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Look through the memories and click on your favourite picture of Jadine</h4>
+        <img id="image" src="C:\Users\jadin\Desktop\21st\jadine\001.JPG" width="200" height="200"alt="pic1">
+        <img id="image" src="C:\Users\jadin\Desktop\21st\jadine\007.JPG" width="200" height="200"alt="pic2">
+        <img id="image" src="C:\Users\jadin\Desktop\21st\jadine\016.JPG" width="200" height="200"alt="pic3">
+        <img id="image" src="C:\Users\jadin\Desktop\21st\jadine\022.JPG" width="200" height="200"alt="pic4">
+        <img id="image" src="C:\Users\jadin\Desktop\21st\jadine\063.JPG" width="200" height="200"alt="pic5">
+        <br>
+        <img id="image" src="C:\Users\jadin\Desktop\21st\jadine\067.JPG" width="200" height="200"alt="pic6">
+        <img id="image" src="C:\Users\jadin\Desktop\21st\jadine\070.JPG" width="200" height="200"alt="pic7">
+        <img id="image" src="C:\Users\jadin\Desktop\21st\jadine\073.JPG" width="200" height="200"alt="pic8">
+        <img id="image" src="C:\Users\jadin\Desktop\21st\jadine\099.JPG" width="200" height="200"alt="pic9">
+        <img id="image" src="C:\Users\jadin\Desktop\21st\jadine\Photo-0025.jpg" width="200" height="200"alt="pic10">
     </body>
 </html>
+            

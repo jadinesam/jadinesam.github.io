@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Jadine's 21st</title>
         <style>
             img{
@@ -10,17 +11,14 @@
                 animation: images 6s;
                 animation-fill-mode: forwards;
             }
-            body{
-                height: 1000px;
-                background-image: linear-gradient(rgb(103, 0, 147),rgb(44, 0, 63));
-            }
+        
             h1{
                 animation-name: heading1;
                 animation-duration: 4s;
                 animation-iteration-count: infinite;
             }
             h4{
-                color:plum; 
+                color:darkviolet; 
                 position: relative;
                 animation: heading4 6s;
                 animation-fill-mode: forwards;
@@ -28,10 +26,10 @@
             #h4 {animation-timing-function: linear;}
             #image {animation-timing-function: linear;}
              @keyframes heading1{ 
-            0%   {color: antiquewhite;}
-            25%  {color: plum;}
-            50%  {color: violet;}
-            100% {color: rgb(212, 0, 255)}
+            0%   {color: rgb(43, 1, 48);}
+            25%  {color: rgb(106, 0, 118);}
+            50%  {color: rgb(166, 0, 184);}
+            100% {color: rgb(198, 0, 220)}
             }
             @keyframes heading4{
                 from {left: -1000px;}
@@ -41,22 +39,31 @@
                 from{left: -1200px;}
                 to {left: 100px;}
             }
+
+            html, body {
+                height: 100%;
+                margin: 0;
+            }
+
+            body {
+                background: linear-gradient(to bottom, #faeafc, #dc72ff); 
+                background-attachment: fixed; 
+            } 
         </style>
     </head>
-    <body style="background-color: rgb(44, 0, 63);">
+    <body>
         <h1 style="font-family: Georgia, 'Times New Roman', Times, serif; ">You've been chosen!</h1>
         <h4 id="h4" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Look through the memories and click on your favourite picture of Jadine</h4>
-        <img id="image" src="001.JPG" width="200" height="200"alt="pic1">
-        <img id="image" src="007.JPG" width="200" height="200"alt="pic2">
-        <img id="image" src="016.JPG" width="200" height="200"alt="pic3">
-        <img id="image" src="022.JPG" width="200" height="200"alt="pic4">
-        <img id="image" src="063.JPG" width="200" height="200"alt="pic5">
+        <a href="invite.html"><img id="image" src="C:\Users\jadin\Desktop\21st\jadine\001.JPG" width="200" height="200"alt="pic1"></a>
+        <a href="invite.html"><img id="image" src="C:\Users\jadin\Desktop\21st\jadine\007.JPG" width="200" height="200"alt="pic2"></a>
+        <a href="invite.html"><img id="image" src="C:\Users\jadin\Desktop\21st\jadine\016.JPG" width="200" height="200"alt="pic3"></a>
+        <a href="invite.html"><img id="image" src="C:\Users\jadin\Desktop\21st\jadine\022.JPG" width="200" height="200"alt="pic4"></a>
+        <a href="invite.html"><img id="image" src="C:\Users\jadin\Desktop\21st\jadine\063.JPG" width="200" height="200"alt="pic5"></a>
         <br>
-        <img id="image" src="067.JPG" width="200" height="200"alt="pic6">
-        <img id="image" src="070.JPG" width="200" height="200"alt="pic7">
-        <img id="image" src="073.JPG" width="200" height="200"alt="pic8">
-        <img id="image" src="099.JPG" width="200" height="200"alt="pic9">
-        <img id="image" src="Photo-0025.jpg" width="200" height="200"alt="pic10">
+        <a href="invite.html"><img id="image" src="C:\Users\jadin\Desktop\21st\jadine\067.JPG" width="200" height="200"alt="pic6"></a>
+        <a href="invite.html"><img id="image" src="C:\Users\jadin\Desktop\21st\jadine\070.JPG" width="200" height="200"alt="pic7"></a>
+        <a href="invite.html"><img id="image" src="C:\Users\jadin\Desktop\21st\jadine\073.JPG" width="200" height="200"alt="pic8"></a>
+        <a href="invite.html"><img id="image" src="C:\Users\jadin\Desktop\21st\jadine\099.JPG" width="200" height="200"alt="pic9"></a>
+        <a href="invite.html"><img id="image" src="C:\Users\jadin\Desktop\21st\jadine\Photo-0025.jpg" width="200" height="200"alt="pic10"></a>
     </body>
 </html>
-            
